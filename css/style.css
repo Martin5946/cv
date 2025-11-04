@@ -109,6 +109,36 @@ article {
     margin: 3px 5px 5px 0;
 }
 
+.languages-table th {
+  text-align: left;
+  font-style: italic;   /* 👈 make header text italic */
+  font-weight: normal;  /* 👈 remove bold */
+  color: #666;
+  font-size: 0.95rem;
+  padding-bottom: 6px;
+}
+
+.skills-table th {
+  text-align: left;
+  font-style: italic;   /* make header text italic */
+  font-weight: normal;  /* remove bold */
+  color: #666;          /* subtle gray tone for CV readability */
+  font-size: 0.95rem;
+  padding-bottom: 6px;
+}
+
+.licenses-table th {
+  text-align: left;
+  font-style: italic;   /* make header text italic */
+  font-weight: normal;  /* remove bold */
+  color: #555;          /* subtle gray tone for CV readability */
+  font-size: 0.95rem;
+  padding-bottom: 6px;
+}
+
+
+
+
 /* Sections Divider */
 hr {
     border: none;
